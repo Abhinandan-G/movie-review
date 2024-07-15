@@ -1,5 +1,6 @@
-package dev.abhinandang.movies;
+package dev.abhinandang.movies.Controllers;
 
+import dev.abhinandang.movies.Movies;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,7 +17,7 @@ import java.util.Optional;
 @RequestMapping("/api/v1/movies")
 public class MoviesController {
     @Autowired
-    private MovieService movieService;
+    private dev.abhinandang.movies.MovieService movieService;
     @GetMapping
     private ResponseEntity<List<Movies>> getAllMovies(){
         //System.out.print("Output");
