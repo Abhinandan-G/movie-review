@@ -1,6 +1,5 @@
-package dev.abhinandang.movies.Services;
+package dev.abhinandang.movies;
 
-import dev.abhinandang.movies.Reviews;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;

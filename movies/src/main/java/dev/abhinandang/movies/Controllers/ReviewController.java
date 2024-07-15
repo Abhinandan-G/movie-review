@@ -1,7 +1,5 @@
-package dev.abhinandang.movies.Controllers;
+package dev.abhinandang.movies;
 
-import dev.abhinandang.movies.ReviewService;
-import dev.abhinandang.movies.Reviews;
 import jakarta.servlet.annotation.HandlesTypes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
